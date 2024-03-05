@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Méliodas",
+    "picture": "https://www.google.com/search?sca_esv=022465d531b21f4c&rlz=1C5GCCM_en&sxsrf=ACQVn09O2RMQ9kEjQ3I8B2rlWPLopPWoKQ:1709627061294&q=meliodas&tbm=isch&source=lnms&sa=X&sqi=2&ved=2ahUKEwiv_76N2dyEAxUKTKQEHR7yBPAQ0pQJegQICRAB&biw=1309&bih=739&dpr=2#imgrc=xtfbxcWepG194M",
+    "gif": "",
+    "strength": 950,
+    "stamina": 9500,
+    "defense": 450,
+    "speed": 750,
+    "techniques": [
+      "Démon",
+      "Epée",
+      "Point",
+      "Lance"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kirua",
+    "picture": "",
+    "gif": "",
+    "strength": 800,
+    "stamina": 8500,
+    "defense": 370,
+    "speed": 900,
+    "techniques": [
+      "Elec",
+      "Yoyo",
+      "Coeur",
+      "Assasin"
+    ]
+  }
+]

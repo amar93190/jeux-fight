@@ -1,0 +1,232 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #ff00ff;
+  font-size: 36px;
+}
+
+.cards {
+  display: grid;
+  grid-template: 2;
+  justify-content: center;
+}
+
+.character-card {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #5aa8fb8f;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-name {
+  color: #3366ff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.character-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.stats {
+  margin-top: 20px;
+}
+
+.stat-label {
+  color: #00cc00;
+}
+
+.techniques-label {
+  color: #ff6600;
+  margin-top: 10px;
+}
+
+.techniques-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+.techniques-list li {
+  color: #990099;
+  margin: 5px 0;
+}
+
+
+
+
+.fight-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FFCC00;
+}
+
+.fight-wrapper {
+  background-color: #3366FF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.action-buttons {
+  margin-bottom: 20px;
+}
+
+.home-button,
+.logout-button,
+.restart-button,
+.attack-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-button,
+.logout-button,
+.restart-button {
+  background-color: #FF3333;
+  color: #FFFFFF;
+}
+
+.attack-button {
+  background-color: #FF6600;
+  color: #FFFFFF;
+}
+
+.fight-scene {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.attack-message {
+  color: #FF0000;
+  margin-top: 20px;
+}
+
+.game-over {
+  background-color: #FF3333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.game-over-heading {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.winner-message {
+  color: #FFFF00;
+  margin-bottom: 20px;
+}
+
+
+
+.stamina-bar {
+  background-color: green;
+  /* Couleur de la barre de vie */
+  height: 20px;
+  /* Hauteur de la barre de vie */
+}
+
+/* form*/
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #3366FF;
+}
+
+.login-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #3366FF;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-field {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3366FF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
